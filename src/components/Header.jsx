@@ -27,8 +27,6 @@ export default function Header({ siteName, nav }) {
   return (
     <header className={`site-header ${isScrolled ? 'is-scrolled' : ''}`}>
       <a className="brand" href="#top" aria-label={`${siteName}: на первый экран`}>
-        <span className="brand-mark">GB</span>
-        <span>{siteName}</span>
       </a>
 
       <button
